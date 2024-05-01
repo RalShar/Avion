@@ -1,0 +1,745 @@
+body {
+  margin: auto;
+  padding-bottom: 60px;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+  font-family: "Inter";
+}
+.maine{
+  height: 100%;
+  width: 100%;
+}
+a{
+  text-decoration: none;
+  font-family: "Inter";
+}
+button{
+  font-family: "Inter";
+}
+@font-face {
+  font-family: "Inter";
+  src:
+    local("Inter"),
+    url("../font/inter/Inter-VariableFont_slnt,wght.ttf");
+}
+@font-face {
+  font-family: "ABeeZee";
+  src:
+    local("ABeeZee"),
+    url("../font/ABeeZee/ABeeZee-Regular.ttf");
+}
+.indexheader {
+  background-image: url("../img/head.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.logo {
+  margin-right: 39%;
+}
+.logo img {
+  width: 142px;
+  height: 85px;
+  margin-top: 0.5%;
+}
+nav {
+  display: inline-flex;
+  justify-content: end;
+  width: 100%;
+}
+.buttons img {
+  width: 45px;
+  height: 45px;
+}
+.buttons {
+  margin-right: 3%;
+  margin-top: 0.5%;
+}
+.btn{
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+  margin-left:46%;
+  margin-top:1%;
+  margin-bottom:1%;
+}
+.sale {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+.salecard {
+  margin-left: 2%;
+}
+.salecard p:nth-of-type(1){
+  margin-bottom: 4%;
+  font-weight: bold;
+}
+.salecard p:nth-of-type(2){
+  margin-top: 0;
+  font-size: 15px;
+}
+.salecard img {
+  width: 229px;
+  height: 325px;
+}
+.cat {
+  margin-left: 2%;
+  font-size: 15px;
+}
+.cat p{
+  margin-left:2%;
+  text-align: center;
+}
+.cat img {
+  width: 80px;
+  height: 80px;
+  border-radius: 42px;
+}
+.cats {
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.cols {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+.col {
+  background-image: url("../img/muzhskaya-odezhda-adidas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 745px;
+  height: 449px;
+  margin-right: 1%;
+}
+.col p {
+  padding-left: 20px;
+  padding-top: 380px;
+}
+.col2 {
+  background-image: url("../img/mosfilm_d_20240215075936.webp");
+  background-repeat: no-repeat;
+  background-size: 500px 449px;
+  width: 500px;
+  height: 449px;
+  margin-left: 1%;
+}
+.col2 p {
+  padding-left: 20px;
+  padding-top: 380px;
+  color: white;
+}
+section {
+  flex: 1;
+  -ms-flex-preferred-size: auto;
+}
+.foot {
+  color: white;
+  background: black;
+  display: flex;
+}
+.footlogo {
+  width: 140px;
+  margin-left: 2%;
+}
+.footnav {
+  width: 230px;
+  margin-left: 32%;
+}
+.footnav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+}
+.inf {
+  margin-left: 28%;
+}
+.soc {
+  margin-left: 1%;
+  width:200px;
+  height: 60px;
+  margin-top:0.5%;
+}
+.soc img{
+  width: 50px;
+  height: 50px;
+  margin-left: 4%;
+}
+
+.main {
+  background-image: url("../img/logbg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.formcont {
+  display: flex;
+  justify-content: center;
+  width: 758px;
+  height: 550px;
+  background-color: rgba(255, 255, 255, 47%);
+  margin-left: 27%;
+  margin-top: 10%;
+}
+.formcont p {
+  margin: 0px;
+  margin-bottom: 18px;
+  margin-left: 43%;
+  font-size: 18pt;
+  width: 100px;
+}
+.formlog {
+  display: flex;
+  justify-content: center;
+  width: 758px;
+  height: 550px;
+  background-color: rgba(255, 255, 255, 47%);
+  margin-left: 27%;
+  margin-top: 10%;
+}
+.formlog form{
+  height: 360px;
+  margin-top:7%;
+}
+.formlog p {
+  margin: 0px;
+  margin-bottom: 18px;
+  margin-left: 43%;
+  font-size: 18pt;
+  width: 100px;
+}
+.reglogo{
+  margin-top:5%;
+}
+.reglogo img {
+  width: 120px;
+  height: 70px;
+  margin-left: 33%;
+}
+.inpt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  width: 368px;
+}
+.inputs {
+  width: 368px;
+}
+.inputs input {
+  border-radius: 10px;
+  border-color: black;
+}
+.inputs a {
+  margin-left: 17%;
+  text-decoration: underline;
+  color: black;
+}
+.inpgrp1 {
+  display: flex;
+  width: 340px;
+}
+.inpgrp1 input {
+  margin-right: 8%;
+  width: 160px;
+  height: 40px;
+}
+.inpt input {
+  width: 360px;
+  height: 40px;
+  margin-top: 15px;
+}
+.inpgrp2 {
+  display: flex;
+  width: 368px;
+}
+.inpgrp2 input {
+  width: 160px;
+  height: 40px;
+  margin-top: 15px;
+  margin-right: 8%;
+}
+.logbtn {
+  margin-left: 26%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.logbtn button {
+  border-radius: 10px;
+  border-color: black;
+  background-color: white;
+  width: 179px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+.prem {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 12%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.prem p {
+  width: 25%;
+  font-size: 20pt;
+}
+.prem img {
+  width: 416px;
+  height: 277px;
+}
+
+.contact {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 6%;
+}
+.contact img {
+  width: 639px;
+  height: 305px;
+}
+.contact p {
+  width: 20%;
+  font-size: 20pt;
+  margin-left: 3%;
+}
+
+.inpts {
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inpts input {
+  border-radius: 10px;
+  border-color: black;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.inpts a {
+  margin-left: 22%;
+  text-decoration: underline;
+  color: black;
+}
+
+.formcont1 {
+  display: flex;
+  justify-content: center;
+  width: 758px;
+  height: 530px;
+  margin-left: 42%;
+  margin-top: 5%;
+}
+.inpts input:nth-of-type(3) {
+  height: 120px;
+}
+
+.contcart {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+.cart {
+  margin-right: 50%;
+}
+.cart img {
+  width: 229px;
+  height: 325px;
+}
+.cart input {
+  border-color: black;
+  width: 15%;
+  margin-left: 3%;
+}
+.cart p:nth-of-type(1) {
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-top: 2%;
+}
+.cart p:nth-of-type(2) {
+  margin-top: 0;
+}
+.formcart {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 381px;
+  height: 146px;
+  text-align: center;
+  border-radius: 10px;
+}
+.formcart button {
+  margin-top: 5%;
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-color: black;
+  margin-left: 25%;
+  border-radius: 10px;
+}
+.formcart select {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-color: black;
+  margin-left: 25%;
+  border: 2px solid;
+  border-radius: 10px;
+}
+.formcart p {
+  font-weight: bold;
+  font-size: 15pt;
+  margin-bottom: 2%;
+}
+.form_radio_btn {
+  display: inline-flex;
+  margin-right: 2px;
+}
+
+.form_radio_btn input[type="radio"] {
+  display: none;
+}
+
+.form_radio_btn label {
+  display: inline-flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding: 0px 7px;
+  line-height: 30px;
+  border: 1px solid #999;
+}
+
+.form_radio_btn input[type="radio"]:checked + label {
+  border-color: black;
+}
+
+.form_radio_btn label:hover {
+  color: #666;
+}
+.panel {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+  margin-left: 20%;
+}
+.panel button {
+  width: 150px;
+  height: 40px;
+  background-color: white;
+  border-color: black;
+  cursor: pointer;
+}
+.panel p:nth-of-type(1) {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.panel p:nth-of-type(2) {
+  margin-top: 5px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.panel p:nth-of-type(3) {
+  margin-top: 5px;
+}
+.discrp p:nth-of-type(1) {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.discrp p:nth-of-type(2) {
+  width: 210px;
+  margin-top: 5px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.tovcont {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+.tovimg {
+  margin-left: 17%;
+}
+.contprof {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 2%;
+}
+.contform form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 20%;
+}
+.profradio input {
+  appearance: none;
+  border-radius: 50%;
+  width: 16px !important;
+  height: 16px !important;
+
+  border: 1px solid rgb(95, 95, 95);
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+.profradio input:checked {
+  background-color: black;
+}
+.contform {
+  margin-right: 10%;
+}
+.contform button {
+  margin-top: 5%;
+  width: 200px;
+  height: 35px;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  margin-left: 5%;
+  cursor: pointer;
+}
+.contform input {
+  border-radius: 10px;
+  border: 1px solid black;
+  width: 220px;
+  height: 28px;
+}
+.contform label {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.wish {
+  margin-right: 50%;
+}
+.wish img {
+  width: 229px;
+  height: 325px;
+}
+.wish input {
+  border-color: black;
+  width: 15%;
+  margin-left: 3%;
+}
+.wish p:nth-of-type(1) {
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-top: 0;
+}
+.wish p:nth-of-type(2) {
+  margin-top: 3%;
+}
+.history {
+  margin-left: 7%;
+  margin-bottom: 5%;
+}
+.history img {
+  width: 229px;
+  height: 325px;
+}
+.history input {
+  border-color: black;
+  width: 15%;
+  margin-left: 3%;
+}
+.txt p{
+  margin-top: 1%;
+  width: 170px;
+}
+.history span {
+  color: green;
+  font-weight: bold;
+  height: 20px;
+  padding-top: 2.3%;
+  padding-right: 2%;
+}
+.catcont {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+.cattovary {
+  display: inline-flex;
+  width: 72%;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+.cattovary1 {
+  display: inline-flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin-left: 10%;
+}
+.catpanel {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.navradio {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+.navradio button {
+  border: none;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+}
+.navradio button:focus {
+  font-weight: bold;
+}
+.catradio {
+  display: flex;
+  flex-wrap: wrap;
+  width: 160px;
+}
+.catradio input {
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #c5c5c5;
+  transition: 0.2s all linear;
+  outline: none;
+  margin-right: 5px;
+  position: relative;
+  box-shadow: 2px 5px 7px black;
+  margin-top: 5%;
+}
+
+.catradio input:checked {
+  border: 1px solid black;
+}
+.catradio input[id="color1"] {
+  background-color: #ed1c1c;
+}
+.catradio input[id="color2"] {
+  background-color: #3FFF0F;
+}
+.catradio input[id="color3"] {
+  background-color: #FFE70B;
+}
+.catradio input[id="color4"] {
+  background-color: #A94A15;
+}
+.catradio input[id="color5"] {
+  background-color: #000;
+}
+.catradio input[id="color6"] {
+  background-color: #fff;
+}
+.catradio input[id="color7"] {
+  background-color: #FF11E7;
+}
+.catradio input[id="color8"] {
+  background-color: #3C62C1;
+}
+.catradio input[id="color9"] {
+  background-color: #13F1E4;
+}
+.catradio input[id="color10"] {
+  background-color: #05A5FF;
+}
+.catradio input[id="color11"] {
+  background-color: #8D8585;
+}
+.catradio input[id="color12"] {
+  background-color: #FF0B9D;
+}
+.tovar {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+.tovar img {
+  width: 229px;
+  height: 325px;
+}
+.tovar input {
+  border-color: black;
+  width: 15%;
+  margin-left: 3%;
+}
+.tovar p:nth-of-type(1) {
+  margin-bottom: 0;
+  font-weight: bold;
+  margin-top: 2%;
+}
+.tovar p:nth-of-type(2) {
+  margin-top: 0;
+}
+.form_radio_btn1 {
+  display: inline-flex;
+  margin-right: 2px;
+  margin-top: 2%;
+}
+
+.form_radio_btn1 input[type="radio"] {
+  display: none;
+}
+
+.form_radio_btn1 label {
+  display: inline-flex;
+  flex-direction: row;
+  cursor: pointer;
+  padding: 0px 7px;
+  line-height: 30px;
+  border: 1px solid #999;
+}
+
+.form_radio_btn1 input[type="radio"]:checked + label {
+  border-color: black;
+}
+
+.form_radio_btn1 label:hover {
+  color: #666;
+}
+.tovar button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-image: url("../img/cart-svgrepo-com.svg");
+  background-size: contain;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 20%;
+}
+.descr {
+  display: flex;
+}
+.descr p {
+  font-weight: normal !important;
+  margin-top: 0;
+}
+.txt{
+  display: inline-flex;
+  width: 100%;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="media/css/style.css" />
+    <title>Astro</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img src="media/img/logo.svg" alt="logo" /></a>
+        </div>
+        <div class="buttons">
+          <a href="profile.html"
+            ><img
+              src="media/img/profile-round-1342-svgrepo-com.svg"
+              alt="profile"
+          /></a>
+          <a href="cart.html"><img src="media/img/cart-svgrepo-com.svg" alt="cart" /></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h1 style="text-align: center">Личный кабинет</h1>
+        <div class="contprof">
+          <div class="contform">
+            <form>
+              <label for="username"> ФИО </label>
+              <input
+                type="text"
+                id="username"
+                name="fio"
+                required
+                placeholder="Иванов Иван Иванович"
+              />
+              <label for="userphone"> Телефон </label>
+              <input
+                type="tel"
+                id="userphone"
+                name="phone"
+                placeholder="88005553535"
+                required
+              />
+              <label for="date"> Дата рождения </label>
+              <input
+                type="text"
+                id="date"
+                name="date"
+                placeholder="02.02.2002"
+              />
+              <div class="profradio">
+                <label>Пол:</label>
+                <input
+                  type="radio"
+                  id="contactChoice1"
+                  name="sex"
+                  value="male"
+                  checked
+                />
+                <label for="contactChoice1">Мужской</label>
+
+                <input
+                  type="radio"
+                  id="contactChoice2"
+                  name="sex"
+                  value="female"
+                />
+                <label for="contactChoice2">Женский</label>
+              </div>
+              <label for="email"> E-mail </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="yourmail@inbox.com"
+                required
+              />
+              <button type="submit">Сохранить изменения</button>
+            </form>
+          </div>
+          <div class="wish">
+            <h1 style="text-align: center">Список желаний</h1>
+            <img src="media/img/600007163260b0.webp" alt="cart1" />
+            <p>1200₽</p>
+            <p>
+              T-Shirt<br>
+              Футболка унисекс
+            </p>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="history">
+          <h1 style="text-align: left">История покупок</h1>
+          <img src="media/img/600007163260b0.webp" alt="cart1" />
+          <div class="txt">
+          <p>
+            T-Shirt<br>
+            Футболка унисекс         
+          </p>
+          <span>В пути</span>
+        </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <div class="foot">
+      <div class="footlogo">
+        <img src="media/img/logo1.svg" alt="footlogo" />
+      </div>
+      <nav class="footnav">
+        <a href="about.html">О нас</a>
+        <a href="contact.html">Связаться с нами</a>
+      </nav>
+      <div class="inf">
+        <p>
+          Телефон<br />
+          8800555353
+        </p>
+      </div>
+      <div class="soc">
+        <a><img src="media/img/vk.png" alt="vk" /></a>
+        <a><img src="media/img/telegram.png" alt="telegram" /></a>
+        <a><img src="media/img/instagram.png" alt="instagram" /></a>
+      </div>
+    </div>
+  </footer>
+</html>
